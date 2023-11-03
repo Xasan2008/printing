@@ -1,31 +1,106 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project</title>
-
-  <!-- Theme toggling adaptation to user settings -->
-  <!-- <script>
-    let localSTheme = localStorage.getItem('theme');
-    let themeToSet = localSTheme;
-
-    if (!localSTheme) {
-      themeToSet = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    }
-
-    document.documentElement.setAttribute('data-theme', themeToSet);
-  </script> -->
-
-  <!-- Stylesheets -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__h1-logo">Printing Club</h1>
+      <nav class="header__nav">
+        <a class="header__a-nav" href="#">Home</a>
+        <a class="header__a-nav" href="#">Our story</a>
+        <a class="header__a-nav" href="#">Apply now</a>
+      </nav>
+      <a class="header__a-button button-background" href="#">Get quote</a>
+    </div>
+  </header>
 
+  <main>
+    <section class="we">
+      <div class="container">
+        <div class="we__inner">
+          <div class="we__text">
+            <h2 class="we__h2">We help you look
+              good on paper</h2>
+            <p class="we__p1">Quality your customers can feel</p>
+            <a href="" class="we__a button-background">Get quote</a>
+            <p class="we__p2">-------- Over 1,546,000 pieces of mail printed last year</p>
+          </div>
+          <img src="./img/we/unsplash_xcwJsghifiQ.png" alt="" class="we__img">
+        </div>
+      </div>
+    </section>
 
-  <script src="js/main.js"></script>
+    <section class="of">
+      <div class="container">
+        <div class="of__inner">
+          <img src="./img/of/unsplash_iXlcgXThZIo.png" width="522" height="514" alt="" class="of__img">
+          <div class="of__text-container">
+            <h3 class="of__h3">70% of Americans believe
+              physical mail is more personal
+              than the internet.*</h3>
+            <p class="of__p">In the age of digital advertising it is easy to overlook print.
+              Don’t make this mistake. Over fifty six percent of people
+              say that receiving mail is a pleasure. Most people look
+              forward to checking their mailbox everyday.</p>
+            <div class="of__div-a-container">
+              <a href="#" class="of__a"><span>Email</span>17 seconds</a>
+              <a href="#" class="of__a"><span>Direct mail</span>17 days</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="print">
+      <div class="container">
+        <div class="print__inner">
+          <div class="print__box">
+
+            <img class="print__img" src="./img/" alt="" width="295" height="400">
+            <p class="print__p"> </p>
+
+            <img class="print__img" src="./img/" alt="" width="295" height="400">
+            <p class="print__p"> </p>
+
+            <img class="print__img" src="./img/" alt="" width="295" height="400">
+            <p class="print__p"> </p>
+
+            <img class="print__img" src="./img/" alt="" width="295" height="400">
+            <p class="print__p"> </p>
+
+            <img class="print__img" src="./img/" alt="" width="295" height="400">
+            <p class="print__p"> </p>
+
+            <img class="print__img" src="./img/" alt="" width="295" height="400">
+            <p class="print__p"> </p>
+
+            <img class="print__img" src="./img/" alt="" width="295" height="400">
+            <p class="print__p"> </p>
+
+            <img class="print__img" src="./img/" alt="" width="295" height="400">
+            <p class="print__p"> </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
 </body>
+
 </html>
